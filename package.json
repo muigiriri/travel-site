@@ -1,17 +1,17 @@
 {
   "name": "travel-site",
   "version": "1.0.0",
-  "description": "travelling",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "God Bless"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/muigiriri/travel-site.git"
   },
-  "author": "Watson Kanyi",
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/muigiriri/travel-site/issues"
   },
