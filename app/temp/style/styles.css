@@ -402,6 +402,20 @@ img {
 @media (min-width: 530px) {
 
 .large-hero__title {
+            font-size: 2em
+    }
+    }
+
+@media (min-width: 800px) {
+
+.large-hero__title {
+            font-size: 3.2em
+    }
+    }
+
+@media (min-width: 1200px) {
+
+.large-hero__title {
             font-size: 4.8em
     }
     }
