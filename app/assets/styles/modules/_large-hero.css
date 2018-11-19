@@ -4,7 +4,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: 10px;
+    border-bottom: 10px solid $mainBlue;
+
+    &__image {
+        display: block;
+    }
     
     &__text-content {
         position: absolute;
@@ -20,14 +24,6 @@
         margin: 0;
 
         @mixin atSmall {
-            font-size: 2em;
-        }
-
-        @mixin atMedium {
-            font-size: 3.2em;
-        }
-
-        @mixin atLarge {
             font-size: 4.8em;
         }
     }

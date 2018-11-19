@@ -351,6 +351,10 @@ img {
     height: auto;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .btn {
     background-color: #2f5577;
     color: #ffffff;
@@ -364,7 +368,6 @@ img {
     }
 
 .btn--large {
-        font-size: 1.25rem;
         padding: 1.1rem 1.9rem;
     }
 
@@ -381,8 +384,12 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-bottom: 10px;
+    border-bottom: 10px solid #2f5577;
 }
+
+.large-hero__image {
+        display: block;
+    }
 
 .large-hero__text-content {
         position: absolute;
@@ -400,20 +407,6 @@ img {
     }
 
 @media (min-width: 530px) {
-
-.large-hero__title {
-            font-size: 2em
-    }
-    }
-
-@media (min-width: 800px) {
-
-.large-hero__title {
-            font-size: 3.2em
-    }
-    }
-
-@media (min-width: 1200px) {
 
 .large-hero__title {
             font-size: 4.8em
@@ -454,6 +447,113 @@ img {
     padding-left: 18px;
     padding-right: 18px;
 }
+
+.page-section {
+    padding: 1.2em 0;
+}
+
+@media (min-width: 800px) {
+
+.page-section {
+        margin-top: 4.5em
+}
+    }
+
+.page-section--blue {
+        background-color: #2f5577;
+    }
+
+.flex {
+    display: flex;
+}
+
+.flex--column {
+        flex-direction: column;
+    }
+
+.flex--justify-center {
+        justify-content: center;
+    }
+
+.flex--align-item-center {
+        align-items: center;
+    }
+
+.flex--wrap {
+        flex-wrap: wrap;
+    }
+
+.headline {
+    font-weight: 300;
+    font-size: 1.9rem;
+    color: #2f5577;
+}
+
+@media (min-width: 530px) {
+
+.headline {
+            font-size: 2.875rem
+}
+    }
+
+.headline--centered {
+        text-align: center;
+    }
+
+.headline--orange {
+        color: #d59541;
+    }
+
+.headline--small {
+        font-size: 1.2rem;
+    }
+
+@media (min-width: 530px) {
+
+.headline--small {
+            font-size: 1.875rem
+    }
+    }
+
+.headline--narrow {
+        max-width: 300px;
+    }
+
+@media (min-width: 530px) {
+
+.headline--narrow {
+            max-width: 500px
+    }
+    }
+
+.headline--light {
+        font-weight: 100;
+    }
+
+.headline--b-margin-small {
+        margin-bottom: 0.5em;
+
+    }
+
+.headline--b-margin-large {
+        margin-bottom: 1.6em;
+    }
+
+.row {
+    width: 100%;
+}
+
+@media (min-width: 800px) {
+
+        .row__medium-4 {
+            width: 33.33%;
+        }
+
+        .row__medium-8 {
+            width: 66.67%;
+            padding-left: 65px;
+            }
+    }
 
 
 

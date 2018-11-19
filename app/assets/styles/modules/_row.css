@@ -1,0 +1,15 @@
+.row {
+    width: 100%;
+
+    @mixin atMedium {
+
+        &__medium-4 {
+            width: 33.33%;
+        }
+
+        &__medium-8 {
+            width: 66.67%;
+            padding-left: 65px;
+            }
+    }
+}
