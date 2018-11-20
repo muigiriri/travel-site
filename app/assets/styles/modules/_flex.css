@@ -9,8 +9,16 @@
         justify-content: center;
     }
 
+    &--justify-left {
+        justify-content: flex-start;
+    }
+
     &--align-item-center {
         align-items: center;
+    }
+
+    &--align-item-left {
+        align-items: flex-start;
     }
 
     &--wrap {

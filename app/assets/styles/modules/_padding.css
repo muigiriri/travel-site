@@ -1,0 +1,12 @@
+.pad {
+
+    @mixin atMedium {
+        &--lr {
+            padding: 0 80px;
+        }
+
+        &--l {
+            padding-left: 65px; 
+        }
+    }
+}

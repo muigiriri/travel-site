@@ -1,0 +1,15 @@
+.test {
+
+    &--blue {
+        background-color: #000fff;
+    }
+
+    &--red {
+        background-color: #ff0000;
+    }
+
+    &--orange {
+        background-color: #ff8800;
+    }
+
+}
