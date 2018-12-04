@@ -9,7 +9,7 @@ gulp.task('watch', function(){
         server: {
             baseDir: "app"
         }
-    })
+    });
 
     watch('./app/index.html', function(){
         browserSync.reload();
@@ -30,3 +30,5 @@ gulp.task('cssInject', ['styles'], function() {
 gulp.task('scriptsRefresh', ['scripts'], function(){
     browserSync.reload();
 });
+
+
