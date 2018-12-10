@@ -3,12 +3,14 @@
 @import "base/_global.css";
 @import "base/_mixins.css";
 @import "modules/_btn.css";
+@import "modules/_reveal-item.css";
 @import "modules/_large-hero.css";
 @import "modules/_wrapper.css";
 @import "modules/_page-section.css";
 @import "modules/_flex.css";
 @import "modules/_headline.css";
 @import "modules/_row.css";
+
 @import "modules/_feature-item.css";
 @import "modules/_section-title.css";
 @import "modules/_testimonial.css";
@@ -16,6 +18,7 @@
 @import "modules/_site-footer.css";
 @import "modules/_site-header.css";
 @import "modules/_primary-nav.css";
+
 /* @import "modules/_test.css"; */
 @import "modules/_padding.css";
 @import "modules/_margin.css";
